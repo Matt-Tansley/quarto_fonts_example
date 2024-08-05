@@ -1,0 +1,50 @@
+/* https://www.hacksoft.io/blog/using-multiple-font-files-the-right-way */
+/* Font 'names' from here: https://tailwindcss.com/docs/font-weight */
+@font-face {
+  font-family: "IBMPlexSans_custom";
+  src: url('IBM_Plex_Sans/IBMPlexSans-Thin.ttf');
+  font-style: thin;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "IBMPlexSans_custom";
+  src: url('IBM_Plex_Sans/IBMPlexSans-ExtraLight.ttf');
+  font-style: extralight;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "IBMPlexSans_custom";
+  src: url('IBM_Plex_Sans/IBMPlexSans-Light.ttf');
+  font-style: light;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "IBMPlexSans_custom";
+  src: url('IBM_Plex_Sans/IBMPlexSans-Regular.ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "IBMPlexSans_custom";
+  src: url('IBM_Plex_Sans/IBMPlexSans-Medium.ttf');
+  font-style: medium;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "IBMPlexSans_custom";
+  src: url('IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf');
+  font-style: semibold;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "IBMPlexSans_custom";
+  src: url('IBM_Plex_Sans/IBMPlexSans-Bold.ttf');
+  font-style: bold;
+  font-weight: 700;
+}

@@ -1,0 +1,7 @@
+/* https://www.hacksoft.io/blog/using-multiple-font-files-the-right-way */
+/* Font 'names' from here: https://tailwindcss.com/docs/font-weight */
+@font-face {
+  font-family: "FiraCode_custom";
+  src: url('Fira_Code/FiraCode-VariableFont_wght.ttf');
+  font-weight: 100 900;
+}

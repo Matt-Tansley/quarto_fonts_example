@@ -1,0 +1,101 @@
+---
+title: "Fonts, fonts everywhere!"
+format: html
+author: Matthew Tansley
+date: today
+toc: true
+self-contained: true
+
+# Fonts and theming
+css: 
+  - ../../css/fonts/IBMPlexSans.css # Creates 'IBMPlexSans_custom' 
+  - ../../css/fonts/Ubuntu.css # Creates 'Ubuntu_custom'
+  - ../../css/fonts/FiraCode.css # Creates 'FiraCode_custom'
+#mainfont: Ubuntu_custom # mainfont is how you usually pick a font, but below blocks have been  created to showcase all the fonts
+---
+
+# Custom Font Showcase
+
+Font files come from [Google Fonts](https://fonts.google.com/)
+
+Font Weight 'names' taken from here: [Tailwind CSS Docs - Font Weight](https://tailwindcss.com/docs/font-weight)
+
+Note - our custom fonts do not always support every font weight.
+
+```{r}
+#| standalone: true
+#| viewerHeight: 800
+
+library(ggplot2)
+
+ggplot(mpg, aes(displ, hwy, colour = class)) + 
+  geom_point() + 
+  labs(title = "Matt's Awesome Plot")
+
+
+```
+
+::: {style="font-family: IBMPlexSans_custom"}
+## IBMPlexSans_custom
+
+IBMPlexSans_custom supports these exact font weights/styles.
+
+- [thin - 100 - "The quick brown fox jumps over the lazy dog"]{style="font-weight:100"}
+
+- [extralight - 200 - "The quick brown fox jumps over the lazy dog"]{style="font-weight:200"}
+
+- [light - 300 - "The quick brown fox jumps over the lazy dog"]{style="font-weight:300"}
+
+- [normal - 400 - "The quick brown fox jumps over the lazy dog"]{style="font-weight:400"}
+
+- [medium - 500 - "The quick brown fox jumps over the lazy dog"]{style="font-weight:500"}
+
+- [semibold - 600 - "The quick brown fox jumps over the lazy dog"]{style="font-weight:600"}
+
+- [bold - 700 - "The quick brown fox jumps over the lazy dog"]{style="font-weight:700"}
+:::
+
+::: {style="font-family: Ubuntu_custom"}
+## Ubuntu_custom
+
+Ubuntu_custom supports these exact font weights/styles.
+
+- [light - 300 - "The quick brown fox jumps over the lazy dog"]{style="font-weight:300"}
+
+- [normal - 400 - "The quick brown fox jumps over the lazy dog"]{style="font-weight:400"}
+
+- [medium - 500 - "The quick brown fox jumps over the lazy dog"]{style="font-weight:500"}
+
+- [bold - 700 - "The quick brown fox jumps over the lazy dog"]{style="font-weight:700"}
+:::
+
+::: {style="font-family: FiraCode_custom"}
+## FiraCode_custom
+
+FiraCode_custom uses a variable font file.
+
+It supports these font weights:
+
+- [light - 300 - "The quick brown fox jumps over the lazy dog"]{style="font-weight:300"}
+
+- [normal - 400 - "The quick brown fox jumps over the lazy dog"]{style="font-weight:400"}
+
+- [medium - 500 - "The quick brown fox jumps over the lazy dog"]{style="font-weight:500"}
+
+- [semibold - 600 - "The quick brown fox jumps over the lazy dog"]{style="font-weight:600"}
+
+- [bold - 700 - "The quick brown fox jumps over the lazy dog"]{style="font-weight:700"}
+
+Because it is a variable font file, you can use font weights in between the above values.
+
+- [300 - "The quick brown fox jumps over the lazy dog"]{style="font-weight:300"}
+
+- [325 - "The quick brown fox jumps over the lazy dog"]{style="font-weight:325"}
+
+- [350 - "The quick brown fox jumps over the lazy dog"]{style="font-weight:350"}
+
+- [375 - "The quick brown fox jumps over the lazy dog"]{style="font-weight:375"}
+
+- [400 - "The quick brown fox jumps over the lazy dog"]{style="font-weight:375"}
+
+:::

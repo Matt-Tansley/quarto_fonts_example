@@ -1,0 +1,29 @@
+/* https://www.hacksoft.io/blog/using-multiple-font-files-the-right-way */
+/* Font 'names' from here: https://tailwindcss.com/docs/font-weight */
+@font-face {
+  font-family: "Ubuntu_custom";
+  src: url('Ubuntu/Ubuntu-Light.ttf');
+  font-style: light;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Ubuntu_custom";
+  src: url('Ubuntu/Ubuntu-Regular.ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Ubuntu_custom";
+  src: url('Ubuntu/Ubuntu-Medium.ttf');
+  font-style: medium;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Ubuntu_custom";
+  src: url('Ubuntu/Ubuntu-Bold.ttf');
+  font-style: bold;
+  font-weight: 700;
+}
